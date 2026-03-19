@@ -1,0 +1,6004 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "category": "Success"
+    },
+    {
+      "id": 2,
+      "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "category": "Resilience"
+    },
+    {
+      "id": 3,
+      "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle",
+      "category": "Discipline"
+    },
+    {
+      "id": 4,
+      "text": "Your time is limited, so don’t waste it living someone else’s life.",
+      "author": "Steve Jobs",
+      "category": "Life"
+    },
+    {
+      "id": 5,
+      "text": "Whether you think you can or you think you can’t, you’re right.",
+      "author": "Henry Ford",
+      "category": "Mindset"
+    },
+    {
+      "id": 6,
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "category": "Growth"
+    },
+    {
+      "id": 7,
+      "text": "It does not matter how slowly you go as long as you do not stop.",
+      "author": "Confucius",
+      "category": "Discipline"
+    },
+    {
+      "id": 8,
+      "text": "Everything you’ve ever wanted is on the other side of fear.",
+      "author": "George Addair",
+      "category": "Mindset"
+    },
+    {
+      "id": 9,
+      "text": "Believe you can and you’re halfway there.",
+      "author": "Theodore Roosevelt",
+      "category": "Success"
+    },
+    {
+      "id": 10,
+      "text": "I have not failed. I’ve just found 10,000 ways that won’t work.",
+      "author": "Thomas Edison",
+      "category": "Resilience"
+    },
+    {
+      "id": 11,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "category": "Life"
+    },
+    {
+      "id": 12,
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "category": "Mindset"
+    },
+    {
+      "id": 13,
+      "text": "Start where you are. Use what you have. Do what you can.",
+      "author": "Arthur Ashe",
+      "category": "Focus"
+    },
+    {
+      "id": 14,
+      "text": "Don’t watch the clock; do what it does. Keep going.",
+      "author": "Sam Levenson",
+      "category": "Discipline"
+    },
+    {
+      "id": 15,
+      "text": "The only impossible journey is the one you never begin.",
+      "author": "Tony Robbins",
+      "category": "Growth"
+    },
+    {
+      "id": 16,
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James",
+      "category": "Leadership"
+    },
+    {
+      "id": 17,
+      "text": "Quality is not an act, it is a habit.",
+      "author": "Aristotle",
+      "category": "Discipline"
+    },
+    {
+      "id": 18,
+      "text": "He who has a why to live can bear almost any how.",
+      "author": "Friedrich Nietzsche",
+      "category": "Life"
+    },
+    {
+      "id": 19,
+      "text": "Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, “I will try again tomorrow.”",
+      "author": "Mary Anne Radmacher",
+      "category": "Resilience"
+    },
+    {
+      "id": 20,
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "category": "Focus"
+    },
+    {
+      "id": 21,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 22,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 23,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 24,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 25,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 26,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 27,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 28,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 29,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 30,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 31,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 32,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 33,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 34,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 35,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 36,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 37,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 38,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 39,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 40,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 41,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 42,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 43,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 44,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 45,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 46,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 47,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 48,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 49,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 50,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 51,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 52,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 53,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 54,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 55,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 56,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 57,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 58,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 59,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 60,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 61,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 62,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 63,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 64,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 65,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 66,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 67,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 68,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 69,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 70,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 71,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 72,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 73,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 74,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 75,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 76,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 77,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 78,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 79,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 80,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 81,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 82,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 83,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 84,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 85,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 86,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 87,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 88,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 89,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 90,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 91,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 92,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 93,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 94,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 95,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 96,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 97,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 98,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 99,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 100,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 101,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 102,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 103,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 104,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 105,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 106,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 107,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 108,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 109,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 110,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 111,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 112,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 113,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 114,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 115,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 116,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 117,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 118,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 119,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 120,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 121,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 122,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 123,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 124,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 125,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 126,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 127,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 128,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 129,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 130,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 131,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 132,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 133,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 134,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 135,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 136,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 137,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 138,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 139,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 140,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 141,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 142,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 143,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 144,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 145,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 146,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 147,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 148,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 149,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 150,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 151,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 152,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 153,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 154,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 155,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 156,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 157,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 158,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 159,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 160,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 161,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 162,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 163,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 164,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 165,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 166,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 167,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 168,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 169,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 170,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 171,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 172,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 173,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 174,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 175,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 176,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 177,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 178,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 179,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 180,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 181,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 182,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 183,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 184,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 185,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 186,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 187,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 188,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 189,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 190,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 191,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 192,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 193,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 194,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 195,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 196,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 197,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 198,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 199,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 200,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 201,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 202,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 203,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 204,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 205,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 206,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 207,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 208,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 209,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 210,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 211,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 212,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 213,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 214,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 215,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 216,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 217,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 218,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 219,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 220,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 221,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 222,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 223,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 224,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 225,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 226,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 227,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 228,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 229,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 230,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 231,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 232,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 233,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 234,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 235,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 236,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 237,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 238,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 239,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 240,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 241,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 242,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 243,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 244,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 245,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 246,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 247,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 248,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 249,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 250,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 251,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 252,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 253,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 254,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 255,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 256,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 257,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 258,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 259,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 260,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 261,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 262,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 263,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 264,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 265,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 266,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 267,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 268,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 269,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 270,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 271,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 272,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 273,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 274,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 275,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 276,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 277,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 278,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 279,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 280,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 281,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 282,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 283,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 284,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 285,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 286,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 287,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 288,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 289,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 290,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 291,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 292,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 293,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 294,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 295,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 296,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 297,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 298,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 299,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 300,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 301,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 302,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 303,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 304,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 305,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 306,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 307,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 308,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 309,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 310,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 311,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 312,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 313,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 314,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 315,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 316,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 317,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 318,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 319,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 320,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 321,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 322,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 323,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 324,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 325,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 326,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 327,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 328,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 329,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 330,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 331,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 332,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 333,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 334,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 335,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 336,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 337,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 338,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 339,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 340,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 341,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 342,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 343,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 344,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 345,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 346,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 347,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 348,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 349,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 350,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 351,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 352,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 353,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 354,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 355,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 356,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 357,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 358,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 359,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 360,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 361,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 362,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 363,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 364,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 365,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 366,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 367,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 368,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 369,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 370,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 371,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 372,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 373,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 374,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 375,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 376,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 377,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 378,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 379,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 380,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 381,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 382,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 383,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 384,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 385,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 386,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 387,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 388,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 389,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 390,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 391,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 392,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 393,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 394,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 395,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 396,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 397,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 398,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 399,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 400,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 401,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 402,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 403,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 404,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 405,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 406,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 407,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 408,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 409,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 410,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 411,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 412,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 413,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 414,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 415,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 416,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 417,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 418,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 419,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 420,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 421,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 422,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 423,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 424,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 425,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 426,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 427,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 428,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 429,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 430,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 431,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 432,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 433,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 434,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 435,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 436,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 437,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 438,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 439,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 440,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 441,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 442,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 443,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 444,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 445,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 446,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 447,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 448,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 449,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 450,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 451,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 452,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 453,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 454,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 455,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 456,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 457,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 458,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 459,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 460,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 461,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 462,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 463,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 464,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 465,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 466,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 467,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 468,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 469,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 470,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 471,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 472,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 473,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 474,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 475,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 476,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 477,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 478,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 479,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 480,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 481,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 482,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 483,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 484,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 485,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 486,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 487,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 488,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 489,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 490,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 491,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 492,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 493,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 494,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 495,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 496,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 497,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 498,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 499,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 500,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 501,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 502,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 503,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 504,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 505,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 506,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 507,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 508,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 509,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 510,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 511,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 512,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 513,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 514,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 515,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 516,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 517,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 518,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 519,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 520,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 521,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 522,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 523,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 524,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 525,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 526,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 527,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 528,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 529,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 530,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 531,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 532,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 533,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 534,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 535,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 536,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 537,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 538,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 539,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 540,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 541,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 542,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 543,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 544,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 545,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 546,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 547,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 548,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 549,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 550,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 551,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 552,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 553,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 554,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 555,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 556,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 557,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 558,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 559,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 560,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 561,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 562,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 563,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 564,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 565,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 566,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 567,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 568,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 569,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 570,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 571,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 572,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 573,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 574,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 575,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 576,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 577,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 578,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 579,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 580,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 581,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 582,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 583,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 584,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 585,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 586,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 587,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 588,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 589,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 590,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 591,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 592,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 593,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 594,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 595,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 596,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 597,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 598,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 599,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 600,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 601,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 602,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 603,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 604,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 605,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 606,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 607,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 608,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 609,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 610,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 611,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 612,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 613,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 614,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 615,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 616,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 617,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 618,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 619,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 620,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 621,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 622,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 623,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 624,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 625,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 626,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 627,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 628,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 629,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 630,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 631,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 632,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 633,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 634,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 635,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 636,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 637,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 638,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 639,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 640,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 641,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 642,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 643,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 644,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 645,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 646,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 647,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 648,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 649,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 650,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 651,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 652,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 653,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 654,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 655,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 656,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 657,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 658,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 659,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 660,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 661,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 662,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 663,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 664,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 665,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 666,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 667,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 668,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 669,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 670,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 671,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 672,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 673,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 674,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 675,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 676,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 677,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 678,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 679,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 680,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 681,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 682,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 683,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 684,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 685,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 686,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 687,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 688,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 689,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 690,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 691,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 692,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 693,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 694,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 695,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 696,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 697,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 698,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 699,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 700,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 701,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 702,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 703,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 704,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 705,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 706,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 707,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 708,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 709,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 710,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 711,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 712,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 713,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 714,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 715,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 716,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 717,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 718,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 719,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 720,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 721,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 722,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 723,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 724,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 725,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 726,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 727,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 728,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 729,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 730,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 731,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 732,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 733,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 734,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 735,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 736,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 737,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 738,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 739,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 740,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 741,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 742,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 743,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 744,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 745,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 746,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 747,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 748,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 749,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 750,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 751,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 752,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 753,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 754,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 755,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 756,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 757,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 758,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 759,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 760,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 761,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 762,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 763,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 764,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 765,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 766,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 767,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 768,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 769,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 770,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 771,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 772,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 773,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 774,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 775,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 776,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 777,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 778,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 779,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 780,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 781,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 782,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 783,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 784,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 785,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 786,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 787,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 788,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 789,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 790,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 791,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 792,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 793,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 794,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 795,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 796,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 797,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 798,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 799,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 800,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 801,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 802,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 803,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 804,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 805,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 806,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 807,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 808,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 809,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 810,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 811,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 812,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 813,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 814,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 815,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 816,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 817,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 818,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 819,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 820,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 821,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 822,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 823,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 824,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 825,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 826,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 827,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 828,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 829,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 830,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 831,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 832,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 833,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 834,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 835,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 836,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 837,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 838,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 839,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 840,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 841,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 842,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 843,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 844,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 845,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 846,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 847,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 848,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 849,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 850,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 851,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 852,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 853,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 854,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 855,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 856,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 857,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 858,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 859,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 860,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 861,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 862,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 863,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 864,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 865,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 866,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 867,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 868,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 869,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 870,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 871,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 872,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 873,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 874,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 875,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 876,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 877,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 878,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 879,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 880,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 881,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 882,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 883,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 884,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 885,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 886,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 887,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 888,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 889,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 890,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 891,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 892,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 893,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 894,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 895,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 896,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 897,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 898,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 899,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 900,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 901,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 902,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 903,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 904,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 905,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 906,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 907,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 908,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 909,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 910,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 911,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 912,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 913,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 914,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 915,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 916,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 917,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 918,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 919,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 920,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 921,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 922,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 923,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 924,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 925,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 926,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 927,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 928,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 929,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 930,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 931,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 932,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 933,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 934,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 935,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 936,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 937,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 938,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 939,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 940,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 941,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 942,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 943,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 944,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 945,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 946,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 947,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 948,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 949,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 950,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 951,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 952,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 953,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 954,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 955,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 956,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 957,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 958,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 959,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 960,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 961,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 962,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 963,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 964,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 965,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 966,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 967,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 968,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 969,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 970,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 971,
+      "text": "Today, remember: Boundaries protect your energy for what matters.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 972,
+      "text": "Keep in mind: Curiosity dissolves fear faster than force.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 973,
+      "text": "A gentle reminder: You grow where you choose to stay accountable.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 974,
+      "text": "Your daily nudge: Small wins stack into undeniable proof.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 975,
+      "text": "Stay inspired: Your standards quietly shape your trajectory.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 976,
+      "text": "Small step forward: Progress beats perfection when you show up daily.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    },
+    {
+      "id": 977,
+      "text": "Momentum matters: Discipline is choosing what you want most over what you want now.",
+      "author": "Inner Voice",
+      "category": "Success"
+    },
+    {
+      "id": 978,
+      "text": "Choose growth: Clarity comes from action, not overthinking.",
+      "author": "Quiet Mentor",
+      "category": "Discipline"
+    },
+    {
+      "id": 979,
+      "text": "Lead with intention: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Daily Motivation",
+      "category": "Life"
+    },
+    {
+      "id": 980,
+      "text": "Quiet strength says: Your habits are casting a vote for the person you are becoming.",
+      "author": "Anonymous",
+      "category": "Mindset"
+    },
+    {
+      "id": 981,
+      "text": "Today, remember: Focus is a gift you give your future self.",
+      "author": "Modern Wisdom",
+      "category": "Growth"
+    },
+    {
+      "id": 982,
+      "text": "Keep in mind: Kindness to yourself fuels sustainable ambition.",
+      "author": "Coach’s Note",
+      "category": "Focus"
+    },
+    {
+      "id": 983,
+      "text": "A gentle reminder: Courage is repeating the attempt with a calmer mind.",
+      "author": "Inner Voice",
+      "category": "Resilience"
+    },
+    {
+      "id": 984,
+      "text": "Your daily nudge: One honest hour of work can change the tone of your week.",
+      "author": "Quiet Mentor",
+      "category": "Leadership"
+    },
+    {
+      "id": 985,
+      "text": "Stay inspired: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Daily Motivation",
+      "category": "Success"
+    },
+    {
+      "id": 986,
+      "text": "Small step forward: Boundaries protect your energy for what matters.",
+      "author": "Anonymous",
+      "category": "Discipline"
+    },
+    {
+      "id": 987,
+      "text": "Momentum matters: Curiosity dissolves fear faster than force.",
+      "author": "Modern Wisdom",
+      "category": "Life"
+    },
+    {
+      "id": 988,
+      "text": "Choose growth: You grow where you choose to stay accountable.",
+      "author": "Coach’s Note",
+      "category": "Mindset"
+    },
+    {
+      "id": 989,
+      "text": "Lead with intention: Small wins stack into undeniable proof.",
+      "author": "Inner Voice",
+      "category": "Growth"
+    },
+    {
+      "id": 990,
+      "text": "Quiet strength says: Your standards quietly shape your trajectory.",
+      "author": "Quiet Mentor",
+      "category": "Focus"
+    },
+    {
+      "id": 991,
+      "text": "Today, remember: Progress beats perfection when you show up daily.",
+      "author": "Daily Motivation",
+      "category": "Resilience"
+    },
+    {
+      "id": 992,
+      "text": "Keep in mind: Discipline is choosing what you want most over what you want now.",
+      "author": "Anonymous",
+      "category": "Leadership"
+    },
+    {
+      "id": 993,
+      "text": "A gentle reminder: Clarity comes from action, not overthinking.",
+      "author": "Modern Wisdom",
+      "category": "Success"
+    },
+    {
+      "id": 994,
+      "text": "Your daily nudge: Consistency turns ordinary effort into extraordinary results.",
+      "author": "Coach’s Note",
+      "category": "Discipline"
+    },
+    {
+      "id": 995,
+      "text": "Stay inspired: Your habits are casting a vote for the person you are becoming.",
+      "author": "Inner Voice",
+      "category": "Life"
+    },
+    {
+      "id": 996,
+      "text": "Small step forward: Focus is a gift you give your future self.",
+      "author": "Quiet Mentor",
+      "category": "Mindset"
+    },
+    {
+      "id": 997,
+      "text": "Momentum matters: Kindness to yourself fuels sustainable ambition.",
+      "author": "Daily Motivation",
+      "category": "Growth"
+    },
+    {
+      "id": 998,
+      "text": "Choose growth: Courage is repeating the attempt with a calmer mind.",
+      "author": "Anonymous",
+      "category": "Focus"
+    },
+    {
+      "id": 999,
+      "text": "Lead with intention: One honest hour of work can change the tone of your week.",
+      "author": "Modern Wisdom",
+      "category": "Resilience"
+    },
+    {
+      "id": 1000,
+      "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
+      "author": "Coach’s Note",
+      "category": "Leadership"
+    }
+  ]
+}
