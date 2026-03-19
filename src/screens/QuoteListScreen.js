@@ -47,7 +47,7 @@ export default function QuoteListScreen() {
         keyExtractor={item => String(item.id)}
         contentContainerStyle={{
           padding: 12,
-          paddingBottom: insets.bottom + 24,
+          paddingBottom: insets.bottom + 116,
         }}
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={

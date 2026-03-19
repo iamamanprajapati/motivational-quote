@@ -269,7 +269,7 @@ export default function HomeScreen() {
           </View>
 
           {/* ── action panel ── */}
-          <View style={[styles.actionPanel, { paddingBottom: insets.bottom + 16 }]}>
+          <View style={[styles.actionPanel, { paddingBottom: insets.bottom + 108 }]}>
 
             {/* meta: category + counter + "Today" reset */}
             <View style={styles.metaRow}>

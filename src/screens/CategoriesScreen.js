@@ -6,137 +6,199 @@ import {
   FlatList,
   TouchableOpacity,
   TextInput,
-  ScrollView,
+  ImageBackground,
+  StatusBar,
+  Dimensions,
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import { useNavigation } from '@react-navigation/native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useFocusEffect } from '@react-navigation/native';
 import { useApp } from '../context/AppContext';
 import Icon from '../components/Icon';
+import { BACKGROUND_IMAGES } from '../assets/imageMap';
 
-const CATEGORY_ICONS = {
-  Success: 'trophy-outline',
-  Discipline: 'dumbbell',
-  Life: 'leaf-maple',
-  Mindset: 'brain',
-  Growth: 'sprout-outline',
-  Focus: 'target',
-  Resilience: 'shield-star-outline',
-  Leadership: 'crown-outline',
-  General: 'lightbulb-outline',
+const { width: SCREEN_W } = Dimensions.get('window');
+const CARD_GAP = 14;
+const CARD_W = (SCREEN_W - 32 - CARD_GAP) / 2;
+
+/* Per-category config — unique image + accent gradient */
+const CATEGORY_META = {
+  Success:    { icon: 'trophy',       colors: ['#FFB347', '#FF6B2B'], imageIndex: 0  },
+  Discipline: { icon: 'dumbbell',     colors: ['#F7536E', '#C0235B'], imageIndex: 6  },
+  Life:       { icon: 'leaf-maple',   colors: ['#43E97B', '#1A8A4A'], imageIndex: 12 },
+  Mindset:    { icon: 'brain',        colors: ['#A78BFA', '#6D28D9'], imageIndex: 18 },
+  Growth:     { icon: 'sprout',       colors: ['#6EE7B7', '#059669'], imageIndex: 23 },
+  Focus:      { icon: 'target',       colors: ['#38BDF8', '#0369A1'], imageIndex: 29 },
+  Resilience: { icon: 'shield-star',  colors: ['#FB923C', '#C2410C'], imageIndex: 35 },
+  Leadership: { icon: 'crown',        colors: ['#FCD34D', '#B45309'], imageIndex: 41 },
+  General:    { icon: 'lightbulb-on', colors: ['#818CF8', '#4338CA'], imageIndex: 47 },
 };
 
+/* Hero image for the page background */
+const HERO_IMAGE = BACKGROUND_IMAGES[4];
+
 export default function CategoriesScreen() {
-  const { colors, categories, allQuotes } = useApp();
+  const { categories, allQuotes } = useApp();
   const navigation = useNavigation();
   const insets = useSafeAreaInsets();
   const [query, setQuery] = useState('');
   const [focused, setFocused] = useState(false);
 
+  useFocusEffect(
+    React.useCallback(() => {
+      StatusBar.setBarStyle('light-content', true);
+    }, []),
+  );
+
   const counts = useMemo(() => {
     const m = {};
-    allQuotes.forEach(q => { m[q.category || 'General'] = (m[q.category || 'General'] || 0) + 1; });
+    allQuotes.forEach(q => {
+      m[q.category || 'General'] = (m[q.category || 'General'] || 0) + 1;
+    });
     return m;
   }, [allQuotes]);
 
   const onSearch = () => {
     const q = query.trim();
-    if (!q) { return; }
+    if (!q) return;
     navigation.navigate('QuoteList', { title: `"${q}"`, query: q });
   };
 
   const clearSearch = () => setQuery('');
 
-  return (
-    <View style={[styles.root, { backgroundColor: colors.background, paddingTop: insets.top }]}>
-      {/* ── top bar ── */}
-      <View style={[styles.topBar, { borderBottomColor: colors.divider }]}>
-        <Text style={[styles.screenTitle, { color: colors.onBackground }]}>
-          Discover
-        </Text>
-      </View>
-
-      {/* ── search bar ── */}
-      <View style={[styles.searchContainer, { paddingHorizontal: 16, marginBottom: 8 }]}>
-        <View
-          style={[
-            styles.searchBar,
-            {
-              backgroundColor: colors.surfaceVariant,
-              borderColor: focused ? colors.primary : 'transparent',
-            },
-          ]}>
-          <Icon name="magnify" size={22} color={focused ? colors.primary : colors.onSurfaceVariant} />
+  const ListHeader = (
+    <View>
+      {/* Search bar */}
+      <View style={styles.searchRow}>
+        <View style={[styles.searchBar, focused && styles.searchBarFocused]}>
+          <Icon name="magnify" size={20} color="rgba(255,255,255,0.70)" />
           <TextInput
             value={query}
             onChangeText={setQuery}
-            placeholder="Search quotes, authors, categories…"
-            placeholderTextColor={colors.onSurfaceVariant}
-            style={[styles.searchInput, { color: colors.onSurface }]}
+            placeholder="Search quotes, authors…"
+            placeholderTextColor="rgba(255,255,255,0.45)"
+            style={styles.searchInput}
             returnKeyType="search"
             onSubmitEditing={onSearch}
             onFocus={() => setFocused(true)}
             onBlur={() => setFocused(false)}
           />
           {query.length > 0 && (
-            <TouchableOpacity onPress={clearSearch}>
-              <Icon name="close-circle" size={18} color={colors.onSurfaceVariant} />
+            <TouchableOpacity onPress={clearSearch} hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}>
+              <Icon name="close-circle" size={18} color="rgba(255,255,255,0.55)" />
             </TouchableOpacity>
           )}
         </View>
         {query.length > 0 && (
-          <TouchableOpacity
-            style={[styles.searchBtn, { backgroundColor: colors.primary }]}
-            onPress={onSearch}>
-            <Text style={[styles.searchBtnTxt, { color: colors.onPrimary }]}>
-              Search
-            </Text>
+          <TouchableOpacity style={styles.searchBtn} onPress={onSearch} activeOpacity={0.8}>
+            <LinearGradient
+              colors={['#A09CFF', '#6D5FE8']}
+              start={{ x: 0, y: 0 }}
+              end={{ x: 1, y: 1 }}
+              style={styles.searchBtnGrad}>
+              <Icon name="arrow-right" size={18} color="#fff" />
+            </LinearGradient>
           </TouchableOpacity>
         )}
       </View>
 
-      {/* ── categories ── */}
-      <Text style={[styles.sectionLabel, { color: colors.onSurfaceVariant, marginLeft: 16 }]}>
-        CATEGORIES
-      </Text>
+      {/* Section label */}
+      <Text style={styles.sectionLabel}>CATEGORIES</Text>
+    </View>
+  );
+
+  return (
+    <View style={styles.root}>
+      <ImageBackground source={HERO_IMAGE} style={StyleSheet.absoluteFill} resizeMode="cover" />
+
+      {/* Dark gradient overlay */}
+      <LinearGradient
+        colors={['rgba(4,3,14,0.55)', 'rgba(4,3,14,0.72)', 'rgba(4,3,14,0.92)']}
+        locations={[0, 0.4, 1]}
+        style={StyleSheet.absoluteFill}
+        pointerEvents="none"
+      />
+
+      {/* ── Hero header ── */}
+      <View style={[styles.heroHeader, { paddingTop: insets.top + 8 }]}>
+        <Text style={styles.heroEyebrow}>EXPLORE</Text>
+        <Text style={styles.heroTitle}>Discover</Text>
+        <Text style={styles.heroSub}>Find your next source of inspiration</Text>
+      </View>
+
+      {/* ── Scrollable content ── */}
       <FlatList
         data={categories}
         keyExtractor={item => item}
-        contentContainerStyle={{
-          paddingHorizontal: 16,
-          paddingBottom: insets.bottom + 32,
-        }}
-        showsVerticalScrollIndicator={false}
         numColumns={2}
         columnWrapperStyle={styles.columnWrap}
+        ListHeaderComponent={ListHeader}
+        contentContainerStyle={[
+          styles.listContent,
+          { paddingBottom: insets.bottom + 120 },
+        ]}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => {
-          const iconName = CATEGORY_ICONS[item] || 'bookmark-outline';
+          const meta = CATEGORY_META[item] || {
+            icon: 'bookmark',
+            colors: ['#818CF8', '#4338CA'],
+            imageIndex: 0,
+          };
           const count = counts[item] || 0;
+          const cardImage = BACKGROUND_IMAGES[meta.imageIndex];
+
           return (
             <TouchableOpacity
-              style={[
-                styles.catCard,
-                {
-                  backgroundColor: colors.surface,
-                  borderColor: colors.outline,
-                },
-              ]}
-              onPress={() =>
-                navigation.navigate('QuoteList', { title: item, category: item })
-              }
-              activeOpacity={0.75}>
-              <View
-                style={[
-                  styles.catIconWrap,
-                  { backgroundColor: colors.primaryContainer },
-                ]}>
-                <Icon name={iconName} size={24} color={colors.primary} />
+              style={styles.catCard}
+              onPress={() => navigation.navigate('QuoteList', { title: item, category: item })}
+              activeOpacity={0.82}>
+
+              {/* Photo background */}
+              <ImageBackground
+                source={cardImage}
+                style={StyleSheet.absoluteFill}
+                resizeMode="cover"
+                imageStyle={{ borderRadius: 22 }}
+              />
+
+              {/* Dark scrim so text is always readable */}
+              <LinearGradient
+                colors={['rgba(0,0,0,0.08)', 'rgba(0,0,0,0.55)', 'rgba(0,0,0,0.82)']}
+                locations={[0, 0.5, 1]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 0, y: 1 }}
+                style={[StyleSheet.absoluteFill, { borderRadius: 22 }]}
+              />
+
+              {/* Accent colour wash */}
+              <LinearGradient
+                colors={[meta.colors[0] + '44', 'transparent']}
+                start={{ x: 1, y: 0 }}
+                end={{ x: 0, y: 1 }}
+                style={[StyleSheet.absoluteFill, { borderRadius: 22 }]}
+              />
+
+              {/* Icon badge */}
+              <LinearGradient
+                colors={meta.colors}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={styles.iconCircle}>
+                <Icon name={meta.icon} size={20} color="#fff" />
+              </LinearGradient>
+
+              {/* Category name + count */}
+              <Text style={styles.catName} numberOfLines={1}>{item}</Text>
+              <Text style={styles.catCount}>{count} quotes</Text>
+
+              {/* Arrow */}
+              <View style={styles.arrowWrap}>
+                <Icon name="chevron-right" size={16} color="rgba(255,255,255,0.60)" />
               </View>
-              <Text style={[styles.catName, { color: colors.onSurface }]} numberOfLines={1}>
-                {item}
-              </Text>
-              <Text style={[styles.catCount, { color: colors.onSurfaceVariant }]}>
-                {count} quotes
-              </Text>
+
+              {/* Border ring */}
+              <View style={styles.cardBorder} />
             </TouchableOpacity>
           );
         }}
@@ -146,88 +208,132 @@ export default function CategoriesScreen() {
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1 },
-  topBar: {
+  root: {
+    flex: 1,
+    backgroundColor: '#04030E',
+  },
+
+  /* ── hero ── */
+  heroHeader: {
     paddingHorizontal: 20,
-    paddingVertical: 14,
-    borderBottomWidth: 1,
+    paddingBottom: 20,
   },
-  screenTitle: {
-    fontSize: 26,
-    fontWeight: '800',
-    letterSpacing: 0.1,
+  heroEyebrow: {
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 3,
+    color: 'rgba(160,156,255,0.80)',
+    marginBottom: 4,
   },
-  searchContainer: {
+  heroTitle: {
+    fontSize: 38,
+    fontWeight: '900',
+    color: '#FFFFFF',
+    letterSpacing: -0.5,
+  },
+  heroSub: {
+    fontSize: 14,
+    fontWeight: '400',
+    color: 'rgba(255,255,255,0.55)',
+    marginTop: 4,
+  },
+
+  /* ── search ── */
+  searchRow: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 10,
-    marginTop: 10,
+    marginBottom: 22,
   },
   searchBar: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    paddingHorizontal: 14,
-    paddingVertical: 11,
-    borderRadius: 28,
-    borderWidth: 2,
+    paddingHorizontal: 16,
+    paddingVertical: 13,
+    borderRadius: 26,
+    backgroundColor: 'rgba(255,255,255,0.10)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.14)',
+  },
+  searchBarFocused: {
+    backgroundColor: 'rgba(255,255,255,0.15)',
+    borderColor: 'rgba(160,156,255,0.55)',
   },
   searchInput: {
     flex: 1,
     fontSize: 15,
     fontWeight: '400',
+    color: '#fff',
     padding: 0,
   },
   searchBtn: {
-    paddingHorizontal: 18,
-    paddingVertical: 12,
-    borderRadius: 24,
+    borderRadius: 22,
+    overflow: 'hidden',
   },
-  searchBtnTxt: {
-    fontSize: 14,
-    fontWeight: '700',
-    letterSpacing: 0.3,
-  },
-  sectionLabel: {
-    fontSize: 12,
-    fontWeight: '700',
-    letterSpacing: 1.2,
-    marginBottom: 12,
-    marginTop: 16,
-  },
-  columnWrap: {
-    gap: 12,
-    marginBottom: 12,
-  },
-  catCard: {
-    flex: 1,
-    borderRadius: 16,
-    borderWidth: 1,
-    padding: 16,
-    minHeight: 120,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.08,
-    shadowRadius: 4,
-  },
-  catIconWrap: {
-    width: 44,
-    height: 44,
-    borderRadius: 12,
+  searchBtnGrad: {
+    width: 46,
+    height: 46,
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 10,
+    borderRadius: 22,
+  },
+
+  /* ── list ── */
+  listContent: {
+    paddingHorizontal: 16,
+  },
+  sectionLabel: {
+    fontSize: 11,
+    fontWeight: '700',
+    letterSpacing: 2,
+    color: 'rgba(255,255,255,0.40)',
+    marginBottom: 14,
+  },
+  columnWrap: {
+    gap: CARD_GAP,
+    marginBottom: CARD_GAP,
+  },
+
+  /* ── category card ── */
+  catCard: {
+    width: CARD_W,
+    minHeight: 148,
+    borderRadius: 22,
+    padding: 16,
+    overflow: 'hidden',
+    justifyContent: 'flex-end',
+  },
+  iconCircle: {
+    width: 46,
+    height: 46,
+    borderRadius: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 32,
   },
   catName: {
     fontSize: 15,
-    fontWeight: '700',
+    fontWeight: '800',
+    color: '#FFFFFF',
     letterSpacing: 0.1,
   },
   catCount: {
     fontSize: 12,
     fontWeight: '500',
-    marginTop: 2,
+    color: 'rgba(255,255,255,0.50)',
+    marginTop: 3,
+  },
+  arrowWrap: {
+    position: 'absolute',
+    bottom: 14,
+    right: 14,
+  },
+  cardBorder: {
+    ...StyleSheet.absoluteFillObject,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.12)',
   },
 });

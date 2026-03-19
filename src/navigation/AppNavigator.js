@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from '../components/Icon';
@@ -27,26 +28,85 @@ function SettingsIcon({ color, focused }) {
   return <Icon name={focused ? 'cog' : 'cog-outline'} size={24} color={color} />;
 }
 
+/* ── Liquid glass background rendered behind tab items ── */
+function LiquidGlassBackground({ isDark }) {
+  /* base glass body — lightly blackish for both themes */
+  const baseColors = isDark
+    ? ['rgba(10, 8, 18, 0.85)', 'rgba(5, 4, 12, 0.92)']
+    : ['rgba(18, 14, 28, 0.72)', 'rgba(10, 8, 20, 0.80)'];
+
+  /* top-edge shimmer gradient (the "wet glass" highlight) */
+  const shimmerColors = isDark
+    ? ['rgba(255,255,255,0.14)', 'rgba(255,255,255,0.03)', 'rgba(255,255,255,0.00)']
+    : ['rgba(255,255,255,0.22)', 'rgba(255,255,255,0.06)', 'rgba(255,255,255,0.00)'];
+
+  /* inner glow at the bottom edge */
+  const glowColors = isDark
+    ? ['rgba(160,156,255,0.00)', 'rgba(160,156,255,0.10)']
+    : ['rgba(160,156,255,0.00)', 'rgba(160,156,255,0.08)'];
+
+  const borderColor = isDark
+    ? 'rgba(255, 255, 255, 0.10)'
+    : 'rgba(255, 255, 255, 0.18)';
+
+  return (
+    <View style={styles.glassContainer}>
+      {/* frosted-glass body */}
+      <LinearGradient
+        colors={baseColors}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 0, y: 1 }}
+        style={StyleSheet.absoluteFill}
+      />
+      {/* top-edge shimmer — mimics light catching the glass rim */}
+      <LinearGradient
+        colors={shimmerColors}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 0, y: 1 }}
+        style={styles.shimmer}
+      />
+      {/* bottom inner glow */}
+      <LinearGradient
+        colors={glowColors}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 0, y: 1 }}
+        style={styles.bottomGlow}
+      />
+      {/* glass border ring */}
+      <View style={[StyleSheet.absoluteFill, styles.borderRing, { borderColor }]} />
+    </View>
+  );
+}
+
 function TabNavigator() {
   const { colors, isDark } = useApp();
+
+  const glowColor = isDark ? '#A09CFF' : '#5756CE';
 
   return (
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: colors.tabBar,
-          borderTopColor: colors.tabBarBorder,
-          borderTopWidth: 1,
-          elevation: 8,
-          shadowColor: '#000',
-          shadowOffset: { width: 0, height: -2 },
-          shadowOpacity: 0.12,
-          shadowRadius: 6,
-          height: 62,
+          position: 'absolute',
+          bottom: 24,
+          left: 20,
+          right: 20,
+          height: 68,
+          borderRadius: 28,
+          backgroundColor: 'transparent',
+          borderTopWidth: 0,
+          elevation: 0,
+          /* iOS floating shadow / glow */
+          shadowColor: glowColor,
+          shadowOffset: { width: 0, height: 8 },
+          shadowOpacity: isDark ? 0.40 : 0.22,
+          shadowRadius: 24,
+          overflow: 'hidden',
         },
-        tabBarActiveTintColor: colors.primary,
-        tabBarInactiveTintColor: colors.onSurfaceVariant,
+        tabBarBackground: () => <LiquidGlassBackground isDark={isDark} />,
+        tabBarActiveTintColor: isDark ? '#A09CFF' : '#C4BFFF',
+        tabBarInactiveTintColor: 'rgba(200, 196, 220, 0.50)',
         tabBarLabelStyle: {
           fontSize: 11,
           fontWeight: '700',
@@ -133,4 +193,32 @@ export default function AppNavigator() {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  glassContainer: {
+    ...StyleSheet.absoluteFillObject,
+    borderRadius: 28,
+    overflow: 'hidden',
+  },
+  shimmer: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 20,
+    borderTopLeftRadius: 28,
+    borderTopRightRadius: 28,
+  },
+  bottomGlow: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 24,
+    borderBottomLeftRadius: 28,
+    borderBottomRightRadius: 28,
+  },
+  borderRing: {
+    borderRadius: 28,
+    borderWidth: 1,
+  },
+});

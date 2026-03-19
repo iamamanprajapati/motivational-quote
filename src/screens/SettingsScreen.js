@@ -38,7 +38,7 @@ export default function SettingsScreen() {
   return (
     <ScrollView
       style={[styles.root, { backgroundColor: colors.background }]}
-      contentContainerStyle={{ paddingBottom: insets.bottom + 32 }}>
+      contentContainerStyle={{ paddingBottom: insets.bottom + 120 }}>
 
       {/* ── stats section ── */}
       <SectionLabel label="YOUR STATS" colors={colors} />

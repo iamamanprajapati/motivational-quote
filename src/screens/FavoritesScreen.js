@@ -53,7 +53,7 @@ export default function FavoritesScreen() {
         keyExtractor={item => String(item.id)}
         contentContainerStyle={{
           paddingHorizontal: 16,
-          paddingBottom: insets.bottom + 32,
+          paddingBottom: insets.bottom + 120,
           paddingTop: 12,
         }}
         showsVerticalScrollIndicator={false}
