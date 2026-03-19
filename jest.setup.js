@@ -3,9 +3,18 @@ import 'react-native-gesture-handler/jestSetup';
 jest.mock('react-native-reanimated', () => {
   const { View } = require('react-native');
   const animEntry = { duration: () => ({}) };
+  const noop = () => {};
+  const noopVal = () => ({ value: 0 });
   return {
     __esModule: true,
     default: { View, createAnimatedComponent: c => c },
+    useSharedValue: (init) => ({ value: init }),
+    useAnimatedStyle: () => ({}),
+    withTiming: (val, _opts, cb) => { if (cb) { cb(true); } return val; },
+    withSpring: (val) => val,
+    runOnJS: (fn) => fn,
+    interpolate: (val) => val,
+    Extrapolation: { CLAMP: 'clamp', EXTEND: 'extend', IDENTITY: 'identity' },
     FadeIn: animEntry,
     FadeInDown: animEntry,
     FadeInUp: animEntry,
