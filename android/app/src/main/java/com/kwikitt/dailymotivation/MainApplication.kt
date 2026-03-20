@@ -1,4 +1,4 @@
-package com.dailymotivation
+package com.kwikitt.dailymotivation
 
 import android.app.Application
 import cl.json.ShareApplication
@@ -16,20 +16,20 @@ class MainApplication : Application(), ReactApplication, ShareApplication {
   override fun getFileProviderAuthority(): String = "${BuildConfig.APPLICATION_ID}.rnshare.fileprovider"
 
   override val reactNativeHost: ReactNativeHost =
-      object : DefaultReactNativeHost(this) {
-        override fun getPackages(): List<ReactPackage> =
-            PackageList(this).packages.apply {
-              // Packages that cannot be autolinked yet can be added manually here, for example:
-              // add(MyReactNativePackage())
-            }
+    object : DefaultReactNativeHost(this) {
+      override fun getPackages(): List<ReactPackage> =
+        PackageList(this).packages.apply {
+          // Packages that cannot be autolinked yet can be added manually here, for example:
+          // add(MyReactNativePackage())
+        }
 
-        override fun getJSMainModuleName(): String = "index"
+      override fun getJSMainModuleName(): String = "index"
 
-        override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
+      override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
 
-        override val isNewArchEnabled: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
-        override val isHermesEnabled: Boolean = BuildConfig.IS_HERMES_ENABLED
-      }
+      override val isNewArchEnabled: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
+      override val isHermesEnabled: Boolean = BuildConfig.IS_HERMES_ENABLED
+    }
 
   override val reactHost: ReactHost
     get() = getDefaultReactHost(applicationContext, reactNativeHost)
@@ -39,3 +39,4 @@ class MainApplication : Application(), ReactApplication, ShareApplication {
     loadReactNative(this)
   }
 }
+

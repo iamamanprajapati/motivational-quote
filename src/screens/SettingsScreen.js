@@ -17,7 +17,7 @@ import { useApp } from '../context/AppContext';
 import Icon from '../components/Icon';
 import QuoteShareCard from '../components/QuoteShareCard';
 
-const APP_STORE_LINK = 'https://play.google.com/store/apps/details?id=com.dailymotivation';
+const APP_STORE_LINK = 'https://play.google.com/store/apps/details?id=com.kwikitt.dailymotivation';
 
 export default function SettingsScreen() {
   const {
