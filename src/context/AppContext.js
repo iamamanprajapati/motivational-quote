@@ -63,7 +63,7 @@ export function AppProvider({ children }) {
       ]);
 
       setOnboardingDone(ob === '1');
-      setIsDark(themeRaw !== 'light');
+      setIsDark(true); // dark theme only
 
       try {
         setFavorites(favRaw ? JSON.parse(favRaw) : []);

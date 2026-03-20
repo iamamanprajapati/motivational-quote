@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useRef, useState } from 'react';
 import {
   View,
   Text,
@@ -7,111 +7,120 @@ import {
   Switch,
   TouchableOpacity,
   Alert,
+  ActivityIndicator,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import LinearGradient from 'react-native-linear-gradient';
+import ViewShot, { captureRef } from 'react-native-view-shot';
+import Share from 'react-native-share';
 import { useApp } from '../context/AppContext';
 import Icon from '../components/Icon';
+import QuoteShareCard from '../components/QuoteShareCard';
+
+const APP_STORE_LINK = 'https://play.google.com/store/apps/details?id=com.dailymotivation';
 
 export default function SettingsScreen() {
   const {
-    colors, isDark, setTheme,
+    colors,
     reminder, setReminder,
-    streak, seenQuoteIds, allQuotes,
+    streak, seenQuoteIds,
+    dailyQuote, imageForIndex, dailyQuoteIndex,
   } = useApp();
   const insets = useSafeAreaInsets();
+  const shotRef = useRef(null);
+  const [sharing, setSharing] = useState(false);
 
-  const progressPct = allQuotes.length
-    ? Math.min(100, Math.round((seenQuoteIds.length / allQuotes.length) * 100))
-    : 0;
+  /* ── share app ── */
+  const onShareApp = async () => {
+    try {
+      setSharing(true);
+      const uri = await captureRef(shotRef, { format: 'png', quality: 1, result: 'tmpfile' });
+      await Share.open({
+        title: 'Daily Motivation',
+        message: `"${dailyQuote.text}"\n\nStay inspired every day! 🌟\nDownload Daily Motivation:\n${APP_STORE_LINK}`,
+        url: `file://${uri}`,
+        type: 'image/png',
+        failOnCancel: false,
+      });
+    } catch (e) {
+      if (e?.message !== 'User did not share') {
+        Alert.alert('Oops', 'Could not open share sheet. Please try again.');
+      }
+    } finally {
+      setSharing(false);
+    }
+  };
 
-  const confirmResetStreak = useCallback(() => {
+  /* ── reset streak ── */
+  const confirmResetStreak = () => {
     Alert.alert(
       'Reset Streak',
-      'Are you sure you want to reset your streak?',
+      'Are you sure you want to reset your streak to 0?',
       [
         { text: 'Cancel', style: 'cancel' },
         { text: 'Reset', style: 'destructive', onPress: () => {} },
       ],
     );
-  }, []);
+  };
+
+  const bgImage = imageForIndex(dailyQuoteIndex);
 
   return (
     <ScrollView
       style={[styles.root, { backgroundColor: colors.background }]}
-      contentContainerStyle={{ paddingBottom: insets.bottom + 120 }}>
+      contentContainerStyle={{ paddingBottom: insets.bottom + 120 }}
+      showsVerticalScrollIndicator={false}>
 
-      {/* ── stats section ── */}
-      <SectionLabel label="YOUR STATS" colors={colors} />
-      <View style={[styles.statsGrid, { paddingHorizontal: 16, gap: 10 }]}>
+      {/* ── hidden quote card for share capture ── */}
+      <View style={styles.hiddenCapture} pointerEvents="none">
+        <ViewShot ref={shotRef} options={{ format: 'png', quality: 1 }}>
+          <QuoteShareCard quote={dailyQuote} imageSource={bgImage} />
+        </ViewShot>
+      </View>
+
+      {/* ── hero header ── */}
+      <LinearGradient
+        colors={['#2D2A6E', '#1A1240', '#09090F']}
+        start={{ x: 0, y: 0 }}
+        end={{ x: 1, y: 1 }}
+        style={styles.hero}>
+        <View style={styles.heroIconWrap}>
+          <Icon name="lightning-bolt" size={28} color="#FFD166" />
+        </View>
+        <Text style={styles.heroTitle}>Daily Motivation</Text>
+        <Text style={styles.heroSub}>Stay consistent. Stay inspired.</Text>
+      </LinearGradient>
+
+      {/* ── YOUR JOURNEY ── */}
+      <SectionLabel label="YOUR JOURNEY" colors={colors} />
+      <View style={[styles.statsRow, { paddingHorizontal: 16 }]}>
         <StatCard
           icon="fire"
           iconColor="#FF6B35"
           label="Day Streak"
           value={String(streak)}
+          gradientColors={['rgba(255,107,53,0.18)', 'rgba(255,107,53,0.06)']}
           colors={colors}
         />
         <StatCard
           icon="eye-check-outline"
           iconColor={colors.primary}
           label="Explored"
-          value={`${seenQuoteIds.length}`}
-          colors={colors}
-        />
-        <StatCard
-          icon="bookmark-multiple-outline"
-          iconColor="#FFD166"
-          label="Total Quotes"
-          value={String(allQuotes.length)}
-          colors={colors}
-        />
-        <StatCard
-          icon="chart-donut"
-          iconColor="#8BD5B0"
-          label="Progress"
-          value={`${progressPct}%`}
+          value={String(seenQuoteIds.length)}
+          gradientColors={['rgba(160,156,255,0.18)', 'rgba(160,156,255,0.06)']}
           colors={colors}
         />
       </View>
 
-      {/* progress bar */}
-      <View style={[styles.progressWrap, { paddingHorizontal: 16, marginTop: 4 }]}>
-        <View style={[styles.progressTrack, { backgroundColor: colors.outlineVariant }]}>
-          <View
-            style={[
-              styles.progressFill,
-              { width: `${progressPct}%`, backgroundColor: colors.primary },
-            ]}
-          />
-        </View>
-        <Text style={[styles.progressLabel, { color: colors.onSurfaceVariant }]}>
-          {seenQuoteIds.length} of {allQuotes.length} quotes viewed
-        </Text>
-      </View>
-
-      {/* ── appearance ── */}
-      <SectionLabel label="APPEARANCE" colors={colors} />
-      <View style={[styles.section, { borderColor: colors.outline }]}>
-        <SettingsRow
-          icon="brightness-6"
-          label="Dark Mode"
-          sub={isDark ? 'Currently dark' : 'Currently light'}
-          colors={colors}>
-          <Switch
-            value={isDark}
-            onValueChange={v => setTheme(v ? 'dark' : 'light')}
-            trackColor={{ false: colors.outlineVariant, true: colors.primaryContainer }}
-            thumbColor={isDark ? colors.primary : colors.surfaceVariant}
-          />
-        </SettingsRow>
-      </View>
-
-      {/* ── notifications ── */}
+      {/* ── NOTIFICATIONS ── */}
       <SectionLabel label="NOTIFICATIONS" colors={colors} />
       <View style={[styles.section, { borderColor: colors.outline }]}>
         <SettingsRow
-          icon="bell-outline"
+          icon="bell-ring-outline"
+          iconBg="rgba(160,156,255,0.14)"
+          iconColor={colors.primary}
           label="Daily Reminder"
-          sub="Get a motivational reminder each day"
+          sub="Get a motivational push every morning"
           colors={colors}>
           <Switch
             value={reminder}
@@ -122,50 +131,100 @@ export default function SettingsScreen() {
         </SettingsRow>
       </View>
 
-      {/* ── about ── */}
+      {/* ── SHARE & INVITE ── */}
+      <SectionLabel label="SHARE & INVITE" colors={colors} />
+      <TouchableOpacity
+        style={styles.shareCard}
+        onPress={onShareApp}
+        activeOpacity={0.85}
+        disabled={sharing}>
+        <LinearGradient
+          colors={['#4C46B8', '#7B78FF', '#A09CFF']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.shareCardGradient}>
+          <View style={styles.shareCardLeft}>
+            <View style={styles.shareIconCircle}>
+              {sharing
+                ? <ActivityIndicator size="small" color="#fff" />
+                : <Icon name="share-variant" size={22} color="#fff" />}
+            </View>
+            <View style={styles.shareCardText}>
+              <Text style={styles.shareCardTitle}>Share Daily Motivation</Text>
+              <Text style={styles.shareCardSub}>
+                Inspire your friends with today's quote
+              </Text>
+            </View>
+          </View>
+          <Icon name="chevron-right" size={20} color="rgba(255,255,255,0.70)" />
+        </LinearGradient>
+      </TouchableOpacity>
+
+      {/* ── ABOUT ── */}
       <SectionLabel label="ABOUT" colors={colors} />
       <View style={[styles.section, { borderColor: colors.outline }]}>
         <SettingsRow
           icon="information-outline"
+          iconBg="rgba(160,156,255,0.14)"
+          iconColor={colors.primary}
           label="Version"
           sub="1.0.0"
           colors={colors}
         />
-        <View style={[styles.divider, { backgroundColor: colors.divider }]} />
+        <Divider colors={colors} />
         <SettingsRow
-          icon="lightning-bolt-outline"
-          label="1000 Motivational Quotes"
-          sub="Fully offline"
+          icon="format-quote-open"
+          iconBg="rgba(255,209,102,0.14)"
+          iconColor="#FFD166"
+          label="Motivational Quotes"
+          sub="Handpicked collection, fully offline"
           colors={colors}
         />
-        <View style={[styles.divider, { backgroundColor: colors.divider }]} />
+        <Divider colors={colors} />
         <SettingsRow
           icon="image-multiple-outline"
-          label="100 Background Images"
-          sub="Built-in, no internet needed"
+          iconBg="rgba(139,213,176,0.14)"
+          iconColor="#8BD5B0"
+          label="Beautiful Backgrounds"
+          sub="Stunning imagery, built in"
+          colors={colors}
+        />
+        <Divider colors={colors} />
+        <SettingsRow
+          icon="wifi-off"
+          iconBg="rgba(100,200,255,0.14)"
+          iconColor="#64C8FF"
+          label="100% Offline"
+          sub="No account or internet required"
           colors={colors}
         />
       </View>
 
-      {/* ── danger ── */}
+      {/* ── DATA ── */}
       <SectionLabel label="DATA" colors={colors} />
       <View style={[styles.section, { borderColor: colors.outline }]}>
-        <TouchableOpacity
-          style={styles.dangerRow}
-          onPress={confirmResetStreak}>
-          <View style={styles.dangerLeft}>
+        <TouchableOpacity style={styles.dangerRow} onPress={confirmResetStreak}>
+          <View style={styles.rowLeft}>
             <View style={[styles.iconWrap, { backgroundColor: 'rgba(211,47,47,0.12)' }]}>
               <Icon name="restart" size={20} color="#D32F2F" />
             </View>
             <View>
               <Text style={[styles.rowLabel, { color: '#D32F2F' }]}>Reset Streak</Text>
               <Text style={[styles.rowSub, { color: colors.onSurfaceVariant }]}>
-                Start from day 0
+                Start over from day 0
               </Text>
             </View>
           </View>
           <Icon name="chevron-right" size={20} color={colors.onSurfaceVariant} />
         </TouchableOpacity>
+      </View>
+
+      {/* ── footer ── */}
+      <View style={styles.footer}>
+        <Icon name="heart" size={14} color={colors.primary} />
+        <Text style={[styles.footerTxt, { color: colors.onSurfaceVariant }]}>
+          Made with love for those who grind
+        </Text>
       </View>
     </ScrollView>
   );
@@ -175,43 +234,37 @@ export default function SettingsScreen() {
 
 function SectionLabel({ label, colors }) {
   return (
-    <Text
-      style={[
-        styles.sectionLabel,
-        { color: colors.onSurfaceVariant },
-      ]}>
+    <Text style={[styles.sectionLabel, { color: colors.onSurfaceVariant }]}>
       {label}
     </Text>
   );
 }
 
-function StatCard({ icon, iconColor, label, value, colors }) {
+function StatCard({ icon, iconColor, label, value, gradientColors, colors }) {
   return (
-    <View
-      style={[
-        styles.statCard,
-        { backgroundColor: colors.surface, borderColor: colors.outline },
-      ]}>
-      <Icon name={icon} size={24} color={iconColor} />
+    <LinearGradient
+      colors={gradientColors}
+      style={[styles.statCard, { borderColor: colors.outline }]}>
+      <View style={[styles.statIconWrap, { backgroundColor: colors.surface }]}>
+        <Icon name={icon} size={22} color={iconColor} />
+      </View>
       <Text style={[styles.statValue, { color: colors.onSurface }]}>{value}</Text>
       <Text style={[styles.statLabel, { color: colors.onSurfaceVariant }]}>{label}</Text>
-    </View>
+    </LinearGradient>
   );
 }
 
-function SettingsRow({ icon, label, sub, colors, children }) {
+function SettingsRow({ icon, iconBg, iconColor, label, sub, colors, children }) {
   return (
     <View style={styles.settingsRow}>
-      <View style={styles.dangerLeft}>
-        <View style={[styles.iconWrap, { backgroundColor: colors.surfaceVariant }]}>
-          <Icon name={icon} size={20} color={colors.primary} />
+      <View style={styles.rowLeft}>
+        <View style={[styles.iconWrap, { backgroundColor: iconBg || colors.surfaceVariant }]}>
+          <Icon name={icon} size={20} color={iconColor || colors.primary} />
         </View>
         <View style={styles.rowTextWrap}>
           <Text style={[styles.rowLabel, { color: colors.onSurface }]}>{label}</Text>
           {sub ? (
-            <Text style={[styles.rowSub, { color: colors.onSurfaceVariant }]}>
-              {sub}
-            </Text>
+            <Text style={[styles.rowSub, { color: colors.onSurfaceVariant }]}>{sub}</Text>
           ) : null}
         </View>
       </View>
@@ -220,9 +273,52 @@ function SettingsRow({ icon, label, sub, colors, children }) {
   );
 }
 
+function Divider({ colors }) {
+  return <View style={[styles.divider, { backgroundColor: colors.divider }]} />;
+}
+
 const styles = StyleSheet.create({
   root: { flex: 1 },
 
+  hiddenCapture: {
+    position: 'absolute',
+    top: -2000,
+    left: 0,
+    opacity: 0,
+  },
+
+  /* hero */
+  hero: {
+    marginHorizontal: 16,
+    marginTop: 12,
+    borderRadius: 20,
+    padding: 24,
+    alignItems: 'center',
+    gap: 8,
+  },
+  heroIconWrap: {
+    width: 52,
+    height: 52,
+    borderRadius: 16,
+    backgroundColor: 'rgba(255,209,102,0.15)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 4,
+  },
+  heroTitle: {
+    color: '#fff',
+    fontSize: 22,
+    fontWeight: '900',
+    letterSpacing: 0.3,
+  },
+  heroSub: {
+    color: 'rgba(255,255,255,0.55)',
+    fontSize: 13,
+    fontWeight: '500',
+    letterSpacing: 0.3,
+  },
+
+  /* section label */
   sectionLabel: {
     fontSize: 11,
     fontWeight: '700',
@@ -232,27 +328,29 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
   },
 
-  statsGrid: {
+  /* stats */
+  statsRow: {
     flexDirection: 'row',
-    flexWrap: 'wrap',
+    gap: 10,
   },
   statCard: {
-    width: '48%',
+    flex: 1,
     borderRadius: 16,
     borderWidth: 1,
     padding: 16,
-    alignItems: 'flex-start',
     gap: 8,
-    elevation: 1,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.05,
-    shadowRadius: 3,
+  },
+  statIconWrap: {
+    width: 40,
+    height: 40,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   statValue: {
-    fontSize: 28,
+    fontSize: 32,
     fontWeight: '900',
-    lineHeight: 32,
+    lineHeight: 36,
   },
   statLabel: {
     fontSize: 12,
@@ -260,25 +358,12 @@ const styles = StyleSheet.create({
     letterSpacing: 0.3,
   },
 
-  progressWrap: { gap: 6 },
-  progressTrack: {
-    height: 6,
-    borderRadius: 3,
-    overflow: 'hidden',
-  },
-  progressFill: { height: '100%', borderRadius: 3 },
-  progressLabel: {
-    fontSize: 12,
-    fontWeight: '500',
-    textAlign: 'right',
-  },
-
+  /* settings section */
   section: {
     marginHorizontal: 16,
     borderRadius: 16,
     borderWidth: 1,
     overflow: 'hidden',
-    backgroundColor: 'transparent',
   },
   settingsRow: {
     flexDirection: 'row',
@@ -287,14 +372,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 14,
   },
-  dangerRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 14,
-    paddingVertical: 14,
-  },
-  dangerLeft: {
+  rowLeft: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 12,
@@ -320,5 +398,71 @@ const styles = StyleSheet.create({
   divider: {
     height: StyleSheet.hairlineWidth,
     marginLeft: 66,
+  },
+  dangerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 14,
+    paddingVertical: 14,
+  },
+
+  /* share card */
+  shareCard: {
+    marginHorizontal: 16,
+    borderRadius: 20,
+    overflow: 'hidden',
+    elevation: 6,
+    shadowColor: '#7B78FF',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.40,
+    shadowRadius: 16,
+  },
+  shareCardGradient: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 18,
+    paddingVertical: 18,
+  },
+  shareCardLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    flex: 1,
+  },
+  shareIconCircle: {
+    width: 46,
+    height: 46,
+    borderRadius: 23,
+    backgroundColor: 'rgba(255,255,255,0.20)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  shareCardText: { flex: 1 },
+  shareCardTitle: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '800',
+  },
+  shareCardSub: {
+    color: 'rgba(255,255,255,0.70)',
+    fontSize: 12,
+    fontWeight: '500',
+    marginTop: 2,
+  },
+
+  /* footer */
+  footer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 6,
+    marginTop: 32,
+    marginBottom: 8,
+  },
+  footerTxt: {
+    fontSize: 12,
+    fontWeight: '500',
   },
 });
