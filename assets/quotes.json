@@ -5999,6 +5999,606 @@
       "text": "Quiet strength says: Rest is part of the strategy, not a reward you must earn.",
       "author": "Coach’s Note",
       "category": "Leadership"
+    },
+    {
+      "id": 1001,
+      "text": "Dream big, start small.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1002,
+      "text": "Action creates results.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1003,
+      "text": "Consistency wins every time.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1004,
+      "text": "Focus on progress, not perfection.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1005,
+      "text": "Small steps lead to big success.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1006,
+      "text": "Hustle until it happens.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1007,
+      "text": "Discipline beats motivation.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1008,
+      "text": "Start before you're ready.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1009,
+      "text": "Make today count.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1010,
+      "text": "Success loves persistence.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1011,
+      "text": "Do it with passion.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1012,
+      "text": "Work hard in silence.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1013,
+      "text": "Let success make the noise.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1014,
+      "text": "Stay hungry, stay foolish.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1015,
+      "text": "Create your own path.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1016,
+      "text": "Fear less, do more.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1017,
+      "text": "Progress over excuses.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1018,
+      "text": "Results need effort.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1019,
+      "text": "Be stronger than your excuses.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1020,
+      "text": "Great things take time.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1021,
+      "text": "Turn dreams into plans.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1022,
+      "text": "Focus fuels success.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1023,
+      "text": "One step every day.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1024,
+      "text": "Build the life you want.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1025,
+      "text": "Work now, shine later.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1026,
+      "text": "Effort always matters.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1027,
+      "text": "Success begins with belief.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1028,
+      "text": "Growth starts outside comfort.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1029,
+      "text": "Keep moving forward.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1030,
+      "text": "Believe and achieve.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1031,
+      "text": "Hard work changes everything.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1032,
+      "text": "Your mindset shapes your future.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1033,
+      "text": "Doubt kills more dreams than failure.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1034,
+      "text": "Make progress daily.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1035,
+      "text": "Stay patient and consistent.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1036,
+      "text": "Win the day.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1037,
+      "text": "Never stop improving.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1038,
+      "text": "Effort brings opportunity.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1039,
+      "text": "Create your own luck.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1040,
+      "text": "Stay focused on goals.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1041,
+      "text": "Dreams demand action.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1042,
+      "text": "Think big, act bigger.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1043,
+      "text": "The grind creates greatness.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1044,
+      "text": "Push beyond limits.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1045,
+      "text": "Success requires sacrifice.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1046,
+      "text": "Build. Learn. Grow.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1047,
+      "text": "Rise and grind.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1048,
+      "text": "Make it happen.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1049,
+      "text": "Energy attracts success.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1050,
+      "text": "Start now.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1051,
+      "text": "Turn problems into opportunities.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1052,
+      "text": "Confidence creates power.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1053,
+      "text": "Focus on the solution.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1054,
+      "text": "Build discipline daily.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1055,
+      "text": "Success rewards courage.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1056,
+      "text": "Failure teaches success.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1057,
+      "text": "Keep chasing greatness.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1058,
+      "text": "Ideas need execution.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1059,
+      "text": "Believe in your grind.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1060,
+      "text": "Stay committed.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1061,
+      "text": "Excellence is a habit.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1062,
+      "text": "Greatness starts today.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1063,
+      "text": "Effort creates momentum.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1064,
+      "text": "Every day is a new chance.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1065,
+      "text": "Action beats planning.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1066,
+      "text": "Courage beats comfort.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1067,
+      "text": "Growth is a choice.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1068,
+      "text": "Passion drives success.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1069,
+      "text": "Progress builds confidence.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1070,
+      "text": "Stay unstoppable.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1071,
+      "text": "Build your empire.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1072,
+      "text": "Success loves discipline.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1073,
+      "text": "Focus creates results.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1074,
+      "text": "Dream it. Do it.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1075,
+      "text": "Hard work pays off.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1076,
+      "text": "Keep pushing forward.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1077,
+      "text": "Stay positive, work hard.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1078,
+      "text": "Make your vision real.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1079,
+      "text": "Believe in the process.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1080,
+      "text": "Dedication brings success.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1081,
+      "text": "Turn effort into results.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1082,
+      "text": "Big goals need big focus.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1083,
+      "text": "Think less, do more.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1084,
+      "text": "Great minds act.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1085,
+      "text": "Build something meaningful.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1086,
+      "text": "Trust the journey.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1087,
+      "text": "Progress is power.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1088,
+      "text": "Work with purpose.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1089,
+      "text": "Results need patience.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1090,
+      "text": "Success starts today.",
+      "author": "Daily Mantra",
+      "category": "Success"
+    },
+    {
+      "id": 1091,
+      "text": "Stay strong and move on.",
+      "author": "Daily Mantra",
+      "category": "Resilience"
+    },
+    {
+      "id": 1092,
+      "text": "Growth never stops.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1093,
+      "text": "Every effort counts.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1094,
+      "text": "Keep your vision clear.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1095,
+      "text": "Work hard, stay humble.",
+      "author": "Daily Mantra",
+      "category": "Discipline"
+    },
+    {
+      "id": 1096,
+      "text": "Chase progress daily.",
+      "author": "Daily Mantra",
+      "category": "Growth"
+    },
+    {
+      "id": 1097,
+      "text": "Focus builds greatness.",
+      "author": "Daily Mantra",
+      "category": "Focus"
+    },
+    {
+      "id": 1098,
+      "text": "Believe in your potential.",
+      "author": "Daily Mantra",
+      "category": "Mindset"
+    },
+    {
+      "id": 1099,
+      "text": "Your time is now.",
+      "author": "Daily Mantra",
+      "category": "Life"
+    },
+    {
+      "id": 1100,
+      "text": "Make it legendary.",
+      "author": "Daily Mantra",
+      "category": "Success"
     }
   ]
 }

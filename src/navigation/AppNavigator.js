@@ -9,6 +9,8 @@ import CategoriesScreen from '../screens/CategoriesScreen';
 import FavoritesScreen from '../screens/FavoritesScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import QuoteListScreen from '../screens/QuoteListScreen';
+import MyQuotesScreen from '../screens/MyQuotesScreen';
+import CustomQuoteFormScreen from '../screens/CustomQuoteFormScreen';
 import { useApp } from '../context/AppContext';
 
 const Tab = createBottomTabNavigator();
@@ -23,6 +25,9 @@ function DiscoverIcon({ color, focused }) {
 }
 function FavoritesIcon({ color, focused }) {
   return <Icon name={focused ? 'heart' : 'heart-outline'} size={24} color={color} />;
+}
+function MyQuotesIcon({ color, focused }) {
+  return <Icon name={focused ? 'pencil-box-multiple' : 'pencil-box-multiple-outline'} size={24} color={color} />;
 }
 function SettingsIcon({ color, focused }) {
   return <Icon name={focused ? 'cog' : 'cog-outline'} size={24} color={color} />;
@@ -142,6 +147,23 @@ function TabNavigator() {
         }}
       />
       <Tab.Screen
+        name="MyQuotes"
+        component={MyQuotesScreen}
+        options={{
+          tabBarLabel: 'My Quotes',
+          tabBarIcon: MyQuotesIcon,
+          headerShown: true,
+          headerTitle: 'My Quotes',
+          headerStyle: { backgroundColor: colors.surface },
+          headerTitleStyle: {
+            color: colors.onSurface,
+            fontSize: 20,
+            fontWeight: '800',
+          },
+          headerShadowVisible: false,
+        }}
+      />
+      <Tab.Screen
         name="Settings"
         component={SettingsScreen}
         options={{
@@ -188,6 +210,14 @@ export default function AppNavigator() {
         name="QuoteList"
         component={QuoteListScreen}
         options={({ route }) => ({ title: route.params?.title || 'Quotes' })}
+      />
+      <Stack.Screen
+        name="CustomQuoteForm"
+        component={CustomQuoteFormScreen}
+        options={({ route }) => ({
+          title: route.params?.quote ? 'Edit Quote' : 'New Quote',
+          headerBackTitle: 'Back',
+        })}
       />
     </Stack.Navigator>
   );

@@ -7,4 +7,5 @@ export const KEYS = {
   SEEN_QUOTE_IDS: 'dm:seen_quote_ids',
   DAILY_SLOT: 'dm:daily_slot_v1',
   REMINDER_ENABLED: 'dm:reminder_enabled',
+  CUSTOM_QUOTES: 'dm:custom_quotes',
 };

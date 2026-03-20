@@ -34,6 +34,7 @@ export function AppProvider({ children }) {
   const [seenQuoteIds, setSeenQuoteIds] = useState([]);
   const [dailyQuoteIndex, setDailyQuoteIndex] = useState(0);
   const [reminderEnabled, setReminderEnabled] = useState(false);
+  const [customQuotes, setCustomQuotes] = useState([]);
 
   const colors = useMemo(() => getColors(isDark), [isDark]);
 
@@ -48,6 +49,7 @@ export function AppProvider({ children }) {
         seenRaw,
         slotRaw,
         remRaw,
+        customRaw,
       ] = await Promise.all([
         AsyncStorage.getItem(KEYS.ONBOARDING_DONE),
         AsyncStorage.getItem(KEYS.FAVORITES),
@@ -57,6 +59,7 @@ export function AppProvider({ children }) {
         AsyncStorage.getItem(KEYS.SEEN_QUOTE_IDS),
         AsyncStorage.getItem(KEYS.DAILY_SLOT),
         AsyncStorage.getItem(KEYS.REMINDER_ENABLED),
+        AsyncStorage.getItem(KEYS.CUSTOM_QUOTES),
       ]);
 
       setOnboardingDone(ob === '1');
@@ -71,6 +74,11 @@ export function AppProvider({ children }) {
         setSeenQuoteIds(seenRaw ? JSON.parse(seenRaw) : []);
       } catch {
         setSeenQuoteIds([]);
+      }
+      try {
+        setCustomQuotes(customRaw ? JSON.parse(customRaw) : []);
+      } catch {
+        setCustomQuotes([]);
       }
 
       const today = getYmd();
@@ -229,6 +237,48 @@ export function AppProvider({ children }) {
     }
   }, []);
 
+  const addCustomQuote = useCallback(({ text, author, category }) => {
+    const newQuote = {
+      id: `cq_${Date.now()}`,
+      text: text.trim(),
+      author: (author || '').trim(),
+      category: (category || 'Personal').trim(),
+      createdAt: new Date().toISOString(),
+    };
+    setCustomQuotes(prev => {
+      const next = [newQuote, ...prev];
+      AsyncStorage.setItem(KEYS.CUSTOM_QUOTES, JSON.stringify(next)).catch(() => {});
+      return next;
+    });
+    return newQuote;
+  }, []);
+
+  const updateCustomQuote = useCallback((id, { text, author, category }) => {
+    setCustomQuotes(prev => {
+      const next = prev.map(q =>
+        q.id === id
+          ? {
+              ...q,
+              text: text.trim(),
+              author: (author || '').trim(),
+              category: (category || q.category).trim(),
+              updatedAt: new Date().toISOString(),
+            }
+          : q,
+      );
+      AsyncStorage.setItem(KEYS.CUSTOM_QUOTES, JSON.stringify(next)).catch(() => {});
+      return next;
+    });
+  }, []);
+
+  const deleteCustomQuote = useCallback(id => {
+    setCustomQuotes(prev => {
+      const next = prev.filter(q => q.id !== id);
+      AsyncStorage.setItem(KEYS.CUSTOM_QUOTES, JSON.stringify(next)).catch(() => {});
+      return next;
+    });
+  }, []);
+
   const dailyQuote = useMemo(() => {
     const q = ALL_QUOTES[dailyQuoteIndex] || ALL_QUOTES[0];
     return (
@@ -279,6 +329,10 @@ export function AppProvider({ children }) {
       setReminder,
       imageForIndex,
       categories,
+      customQuotes,
+      addCustomQuote,
+      updateCustomQuote,
+      deleteCustomQuote,
     }),
     [
       ready,
@@ -300,6 +354,10 @@ export function AppProvider({ children }) {
       setReminder,
       imageForIndex,
       categories,
+      customQuotes,
+      addCustomQuote,
+      updateCustomQuote,
+      deleteCustomQuote,
     ],
   );
 
