@@ -35,6 +35,9 @@ local.properties
 !debug.keystore
 .kotlin/
 
+# Production keystore credentials — never commit these
+android/keystore.properties
+
 # node.js
 #
 node_modules/
