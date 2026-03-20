@@ -51,8 +51,9 @@ function AppInner() {
   return (
     <>
       <StatusBar
+        translucent
         barStyle={colors.statusBar}
-        backgroundColor={colors.screenBg}
+        backgroundColor="transparent"
       />
       <Gate />
     </>
